@@ -27,7 +27,7 @@
     </style>
 
     
-	  <link rel="shortcut icon" href="/static/images/favicon.svg"> 
+	  <link rel="shortcut icon" href="static/images/favicon.svg"> 
   </head>
   <body>
     <div id="timeline-embed">
@@ -50,7 +50,7 @@
         $(document).ready(function() {
             var embed = document.getElementById('timeline-embed');
             embed.style.height = getComputedStyle(document.body).height;
-            window.timeline = new TL.Timeline('timeline-embed', '/Automotive-Security-Timeline/static/Automotive Security Timeline.json', options);
+            window.timeline = new TL.Timeline('timeline-embed', 'static/Automotive Security Timeline.json', options);
             window.addEventListener('resize', function() {
                 var embed = document.getElementById('timeline-embed');
                 embed.style.height = getComputedStyle(document.body).height;
@@ -58,17 +58,6 @@
             })
         });
     </script>
-
-    <!-- Baidu Analytics -->
-    <script>
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?76cb8459f9d288c68e62678e492fe3ba";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-      })();
-      </script>
 
   </body>
 </html>

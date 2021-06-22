@@ -32,7 +32,7 @@
       "media": {
         "caption": "<a href=\"https://www.anquanke.com/post/id/82918\">神话鬼斧实验室：一个关于汽车防盗系统缺陷的研究</a>",
         "credit": "",
-        "url": "/static/images/神话鬼斧.png"
+        "url": "static/images/神话鬼斧.png"
       },
       "text": {
         "headline": "沃尔沃、比亚迪、别克君威门锁遥控滚码机制被绕过",
@@ -96,7 +96,7 @@
       "media": {
         "caption": "<a href=\"https://twitter.com/0xRaindrop/status/864704956116254720\">2011 BMW 330i format string vuln</a>",
         "credit": "",
-        "url": "/static/images/CVE-2017-9212.png"
+        "url": "static/images/CVE-2017-9212.png"
       },
       "text": {
         "headline": "宝马 330i 2011款格式化字符串 Dos 漏洞（CVE-2017-9212）",

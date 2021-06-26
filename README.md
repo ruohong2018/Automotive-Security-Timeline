@@ -1,5 +1,7 @@
-## Automotive-Security-Timeline
-汽车信息安全事件时间轴 [timeline.icvsec.com](http://timeline.icvsec.com)
+## Automotive Security Timeline
+"汽车信息安全事件时间轴" 按照时间发生的先后顺序记录汽车信息安全事件。
+- 正式地址: [http://timeline.icvsec.com](http://timeline.icvsec.com)
+- 备用地址: [https://delikely.github.io/Automotive-Security-Timeline](https://delikely.github.io/Automotive-Security-Timeline)
 
 事件记录的格式如下：
 ```json

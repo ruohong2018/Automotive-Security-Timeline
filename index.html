@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
-<html lang="en"><!--	 
+<html lang="zh-cn">
+  <!--	 
     ___        _                        _   _                                       _ _         
    / _ \      | |                      | | (_)                                     (_) |        
   / /_\ \_   _| |_ ___  _ __ ___   ___ | |_ ___   _____    ___  ___  ___ _   _ _ __ _| |_ _   _ 
@@ -17,16 +17,22 @@
     <meta name="viewport" content="initial-scale=1,width=device-width">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
+
     <!-- Style-->
     <style>
       html, body {
-      height:100%;
-      padding: 0px;
-      margin: 0px;
+        height:100%;
+        padding: 0px;
+        margin: 0px;
       }
+     
+      /* 取消图片阴影 */
+      img{
+        box-shadow: none !important;
+      }
+
     </style>
 
-    
 	  <link rel="shortcut icon" href="static/images/favicon.svg"> 
   </head>
   <body>
@@ -38,19 +44,21 @@
     <script type="text/javascript" src="//cdn.knightlab.com/libs/timeline3/latest/js/timeline-min.js"></script>
     <script>
         var options = {
-          hash_bookmark: true,
+          hash_bookmark: false,
           initial_zoom: 2,
           timenav_position:"bottom",
           scale_factor:5,
           // start_at_end: true,
           debug:true,
+          // language:"static/zh-cn.json",
           language:"zh-cn",
 
         }
         $(document).ready(function() {
             var embed = document.getElementById('timeline-embed');
             embed.style.height = getComputedStyle(document.body).height;
-            window.timeline = new TL.Timeline('timeline-embed', 'static/Automotive Security Timeline.json', options);
+            //window.timeline = new TL.Timeline('timeline-embed', 'static/Automotive Security Timeline.json', options);
+            window.timeline = new TL.Timeline('timeline-embed', 'https://raw.githubusercontent.com/delikely/Automotive-Security-Timeline/main/Automotive%20Security%20Timeline.json', options);
             window.addEventListener('resize', function() {
                 var embed = document.getElementById('timeline-embed');
                 embed.style.height = getComputedStyle(document.body).height;
@@ -58,7 +66,7 @@
             })
         });
     </script>
-	  
+
     <!-- Baidu Analytics -->
     <script>
       var _hmt = _hmt || [];

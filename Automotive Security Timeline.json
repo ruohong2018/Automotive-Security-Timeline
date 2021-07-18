@@ -8,7 +8,7 @@
       },
       "text": {
         "headline": "汽车信息安全事件时间轴",
-        "text": "<br><br>按照时间发生的先后顺序记录汽车信息安全事件<br><br>现在是第一版，数据不全欢迎补充与共建<br><br>项目地址 (可以给个小星星吗): <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"  style=\"text-decoration:none;\"> Automotive Security Timeline</a><br><br> 微信交流群: <br><img src=\"static/images/wechat.png\" style=\"zoom:30%;\">"
+        "text": "<br><br>按照时间发生的先后顺序记录汽车信息安全事件<br><br>项目地址: <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br><br> 联系邮箱: delikely@gmail.com"
       }
     },
   "events": [
@@ -206,6 +206,22 @@
       "group":"event"
     },{
       "media": {
+        "caption": "<a href=\"https://www.regulus.com/blog/tesla-model-3-spoofed-off-the-highway-regulus-navigation-system-hack-causes-car-to-turn-on-its-own\">TESLA MODEL 3 SPOOFED OFF THE HIGHWAY – REGULUS NAVIGATION SYSTEM HACK CAUSES CAR TO TURN ON ITS OWN</a>",
+        "credit": "",
+        "url": "https://youtu.be/390tANaEjl4"
+      },
+      "text": {
+        "headline": "TESLA MODEL 3 GPS 欺骗",
+        "text": "Regulus Cyber 测试表明，使用现成的工具能够取得特斯拉的 GPS 控制权,整个过程用时不超过一分钟。这种欺骗行为导致了极端的减速和加速、快速换车道建议、不必要的信号、多次试图在不正确的位置退出高速公路以及极端的驾驶不稳定性。仅仅依靠 GPS 信号，车辆的自定位会存在较大的偏差风险，这就需要利用其他数据来进行纠正。如基于视觉传感器、RTK/IMU 等组合导航技术。"
+      },
+      "start_date": {
+        "month": "8",
+        "day": "4",
+        "year": "2019"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
         "caption": "<a href=\"https://techcrunch.com/2019/10/19/mercedes-benz-app-glitch-exposed\">Mercedes-Benz app glitch exposed car owners’ information to other users</a>",
         "credit": "",
         "url": "https://techcrunch.com/wp-content/uploads/2019/10/benz-app.jpg"
@@ -222,17 +238,17 @@
       "group":"event"
     },{
       "media": {
-        "caption": "<a href=\"https://www.regulus.com/blog/tesla-model-3-spoofed-off-the-highway-regulus-navigation-system-hack-causes-car-to-turn-on-its-own\">TESLA MODEL 3 SPOOFED OFF THE HIGHWAY – REGULUS NAVIGATION SYSTEM HACK CAUSES CAR TO TURN ON ITS OWN</a>",
-        "credit": "",
-        "url": "https://youtu.be/390tANaEjl4"
+        "caption": "<a href=\"https://www.the-parallax.com/tesla-radar-model-3-phone-key-ibeacon\">Have a Tesla Model 3? This app can track its location</a>",
+        "credit": "<a href=\"https://www.teslaradar.com\">Tesla Radar</a>",
+        "url": "https://www.teslaradar.com/images/tesla_radar_street.jpg"
       },
       "text": {
-        "headline": "TESLA MODEL 3 GPS 欺骗",
-        "text": "Regulus Cyber 测试表明，使用现成的工具能够取得特斯拉的 GPS 控制权,整个过程用时不超过一分钟。这种欺骗行为导致了极端的减速和加速、快速换车道建议、不必要的信号、多次试图在不正确的位置退出高速公路以及极端的驾驶不稳定性。仅仅依靠 GPS 信号，车辆的自定位会存在较大的偏差风险，这就需要利用其他数据来进行纠正。如基于视觉传感器、RTK/IMU 等组合导航技术。"
+        "headline": "特斯拉 iBeacon 隐私泄露",
+        "text": "蓝牙安全专家 Martin Herfurt 研究发现 Tesla Model 3 通过蓝牙信道不断对外广播一组特殊的 ID 号(iBeacon)。Tesla 将这组 ID 号作为手机 APP 开关车门的重要参数。 然而用户并没有权限改变或者关闭这组特殊 ID 号, 这就给有心人士造成了可趁之机。只要通过扫描捕捉这组 ID 号, 就可实现对 Tesla Model 3 车主的跟踪, 从而对车主的个人隐私造成困扰。Martin 还特意写了一个 APP (<a href=\"https://play.google.com/store/apps/details?id=com.toothr.teslaradar\">Tesla Radar</a>)，并搭建了全球特斯拉监测平台。<br><br>iBeacon 最早由苹果公司开发的一种通过低功耗蓝牙技术进行一个精确的微定位技术。这项技术的设计初衷是为了让商家可以更加方便的与客户互动。然而 iBeacon 的设计者们似乎没有过多考虑安全隐私的问题。 其通过蓝牙广播明文发送的特性, 让任何人可以通过手机或蓝牙设备对其进行数据捕获与伪造。"
       },
       "start_date": {
-        "month": "8",
-        "day": "4",
+        "month": "11",
+        "day": "14",
         "year": "2019"
       },
       "group":"vulnerability"
@@ -365,23 +381,6 @@
       },
       "group":"vulnerability"
     },{
-      "media": {
-        "caption": "<a href=\"https://edition.cnn.com/2021/06/11/cars/vw-audi-hack-customer-information/index.html\">Volkswagen hack: 3 million customers have had their information stolen</a>",
-        "credit": "",
-        "url": "https://youtu.be/lfEKEEVCK7Y"
-      },
-      "text": {
-        "headline": "大众汽车 330 万客户数据遭泄露",
-        "text": "大众汽车集团 330 万名客户的数据遭泄露。泄露发生的原因是一家供应商在 2019 年 8 月至 2021 年 5 月期间将客户数据“未经保护”的暴露在互联网上。包括 310 万美国奥迪客户、16.3 万加拿大奥迪客户和 3300 美国大众品牌客户的客户信息可能被泄露，包括姓名、邮件地址、电话和车牌号。还有 9 万名美国和加拿大的客户“更机密”的数据被泄露，其中包括获得贷款资格的信息以及社会保障号码等。"
-      },
-      "start_date": {
-        "month": "1",
-        "day": "6",
-        "year": "2021"
-      },
-      "group":"event"
-    },
-    {
       "media": {
         "caption": "<a href=\"https://kunnamon.io/tbone/\">TBONE – A zero-click exploit for Tesla MCUs</a>",
         "credit": "",

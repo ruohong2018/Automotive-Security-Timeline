@@ -8,7 +8,7 @@
       },
       "text": {
         "headline": "汽车信息安全事件时间轴",
-        "text": "<br><br>按照时间发生的先后顺序记录汽车信息安全事件<br><br>项目地址: <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br><br> 联系邮箱: delikely@gmail.com"
+        "text": "按照时间发生的先后顺序记录汽车信息安全事件<br><br>项目地址: <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br><br> 联系邮箱: delikely@gmail.com"
       }
     },
   "events": [
@@ -30,22 +30,6 @@
       "group":"event"
     },{
       "media": {
-        "caption": "<a href=\"https://www.anquanke.com/post/id/82918\">神话鬼斧实验室：一个关于汽车防盗系统缺陷的研究</a>",
-        "credit": "",
-        "url": "static/images/神话鬼斧.png"
-      },
-      "text": {
-        "headline": "沃尔沃、比亚迪、别克君威门锁遥控滚码机制被绕过",
-        "text": " “神话行动” 团队鬼斧实验室发现沃尔沃、比亚迪、别克三品牌部分车辆防盗系统存在设计缺陷,遥控滚码机制能够被绕过，用几十元的破解密匙就能无限次打开车门、后备箱。<br><br>鬼斧实验室针对主流 HCS 滚码芯片和 Keeloq 算法的汽车遥控防盗系统,通过对汽车遥控钥匙的无线遥控数据信号进行监听获取(非拦截信号),并将获取的信号按照特定的机制发送,成功实现无限次重现汽车遥控车钥匙的功能,从而突破汽车安全系统。此缺陷需要厂商召回汽车进行升级修复(若可升级),普通用户基本无法防范。该缺陷首次公开。"
-      },
-      "start_date": {
-        "month": "12",
-        "day": "25",
-        "year": "2015"
-      },
-      "group":"vulnerability"
-    },{
-      "media": {
         "caption": "<a href=\"https://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway\">Hackers Remotely Kill a Jeep on the Highway—With Me in It</a>",
         "credit": "",
         "url": "https://media.wired.com/photos/593238a226780e6c04d2a5c8/master/w_1600%2Cc_limit/IMG_0724.jpg"
@@ -57,6 +41,38 @@
       "start_date": {
         "month": "7",
         "day": "21",
+        "year": "2015"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.zdnet.com/article/ownstar-the-gm-onstar-connected-cars-worst-security-nightmare\">OwnStar: Unlock and track any GM OnStar connected car for $100</a>",
+        "credit": "",
+        "url": "https://www.youtube.com/watch?v=3olXUbS-prU"
+      },
+      "text": {
+        "headline": "通用安吉星 OnStar 系统存安全漏洞",
+        "text": "安全研究员 Samy Kamkar发现，车载系统 OnStar 存在漏洞，可通过它控制通用旗下汽车，实现远程解锁汽车并发动汽车引擎。通过截获 OnStar 系统与车主手机上的 OnStar 应用程序之间的通信。研究人员使用一个自制的 OwnStar 小设备就可以劫持 OnStar辅助应用 RemoteLink 的数据通讯。Ownstar 会拦截汽车和手机应用之间的数据通信，并发送特定的数据包给目标设备。这些恶意的数据包利用权限提升漏洞获取到高权限用户的凭证之后，Ownstar 就能够获取车辆的信息，甚至远程控制汽车。"
+      },
+      "start_date": {
+        "month": "7",
+        "day": "30",
+        "year": "2015"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.anquanke.com/post/id/82918\">神话鬼斧实验室：一个关于汽车防盗系统缺陷的研究</a>",
+        "credit": "",
+        "url": "static/images/神话鬼斧.png"
+      },
+      "text": {
+        "headline": "沃尔沃、比亚迪、别克君威门锁遥控滚码机制被绕过",
+        "text": " “神话行动” 团队鬼斧实验室发现沃尔沃、比亚迪、别克三品牌部分车辆防盗系统存在设计缺陷,遥控滚码机制能够被绕过，用几十元的破解密匙就能无限次打开车门、后备箱。<br><br>鬼斧实验室针对主流 HCS 滚码芯片和 Keeloq 算法的汽车遥控防盗系统,通过对汽车遥控钥匙的无线遥控数据信号进行监听获取(非拦截信号),并将获取的信号按照特定的机制发送,成功实现无限次重现汽车遥控车钥匙的功能,从而突破汽车安全系统。此缺陷需要厂商召回汽车进行升级修复(若可升级),普通用户基本无法防范。该缺陷首次公开。"
+      },
+      "start_date": {
+        "month": "12",
+        "day": "25",
         "year": "2015"
       },
       "group":"vulnerability"
@@ -90,6 +106,22 @@
         "month": "6",
         "day": "5",
         "year": "2016"
+      },
+      "group":"vulnerability"
+    },{
+      "media": {
+        "caption": "<a href=\"https://www.rapid7.com/blog/post/2017/04/25/r7-2017-02-hyundai-blue-link-potential-info-disclosure-fixed\">Hyundai Blue Link Potential Info Disclosure</a>",
+        "credit": "",
+        "url": "https://blog.rapid7.com/content/images/post-feature-images/post-img-62579.jpg"
+      },
+      "text": {
+        "headline": "现代 Blue Link 手机应用信息泄露",
+        "text": "现代 Blue Link 手机应用程序潜在泄露用户和车辆敏感信息的风险，其中包括用于用户名、密码、PIN码等。漏洞出现在 2016 年 12 月推出的日志上传新功能中，影响的版本为 3.9.4 和 3.9.5, 2017 年3月6日。Blue Link 手机应用通过 HTTP 传输日志至 http://54.xx.yy.113:8080/LogManager/LogServlet ，其中传输的日志使用对称秘钥\"1986l12Ov09e\"加密保护。<br><br>攻击者可以在不安全的 Wi-Fi 下通过中间人攻击获取上传的日志，然后使用硬编的秘钥解密，从而获取到车主用户名、密码等信息。"
+      },
+      "start_date": {
+        "month": "4",
+        "day": "25",
+        "year": "2017"
       },
       "group":"vulnerability"
     },{
@@ -457,6 +489,22 @@
       "start_date": {
         "month": "6",
         "day": "24",
+        "year": "2021"
+      },
+      "group":"event"
+    },{
+      "media": {
+        "caption": "<a href=\"https://forum.butian.net/share/357\">施耐德充电桩漏洞挖掘之旅</a>",
+        "credit": "",
+        "url": "https://shs3.b.qianxin.com/attack_forum/2021/07/attach-01b2739695894e1df1eb739d7d6d3b108b2dfc01.png"
+      },
+      "text": {
+        "headline": "施耐德充电桩漏洞",
+        "text": "2020 年底,安全研究员 BaCde 与 Kevin2600 针对施耐德充电桩展开漏洞挖掘，最终实现了在无用户交互场景下的远程 Root shell 的获取。其中两个高危漏洞为：<br><br> CVE-2021-22707：Web 后台存在硬编码，在cookie中添加 CURLTOKEN=b35fcdc1ea1221e6dd126e172a0131c5a;SESSIONID=admin 可以绕过登录认证，获取 Web 后服务的管理员权限。 <br><br>CVE-2021-22708：固件验签算法存在缺陷，攻击者精心构造的恶意升级包能够绕过校验验证。通过刷入恶意固件，能够获取充电桩的 Root Shell。"
+      },
+      "start_date": {
+        "month": "7",
+        "day": "31",
         "year": "2021"
       },
       "group":"event"

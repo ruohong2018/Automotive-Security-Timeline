@@ -516,7 +516,7 @@
       },
       "text": {
         "headline": "本田雅阁、讴歌、思域等多款车存在密钥重放攻击漏洞",
-        "text": "田雅阁、讴歌、思域部分车型的钥匙未采用滚动码，而采用不安全的固定码，钥匙信号可以被重放。攻击者能够解锁车门、控制窗户、打开后备箱等。然而可能不会有缓解方案，丰田方面已忽略 CVE-2019-20626。已确认受影响的车型如下：• 2009 Acura TSX<br>• 2016 Honda Accord V6 Touring Sedan<br>• 2017 Honda HR-V (CVE-2019-20626)<br>• 2018 Honda Civic Hatchback<br>• 2020 Honda Civic LX"
+        "text": "田雅阁、讴歌、思域部分车型的钥匙未采用滚动码，而采用不安全的固定码，钥匙信号可以被重放。攻击者能够解锁车门、控制窗户、打开后备箱等。然而可能不会有缓解方案，丰田方面已忽略 CVE-2019-20626。已确认受影响的车型如下：<br>• 2009 Acura TSX<br>• 2016 Honda Accord V6 Touring Sedan<br>• 2017 Honda HR-V (CVE-2019-20626)<br>• 2018 Honda Civic Hatchback<br>• 2020 Honda Civic LX"
       },
       "start_date": {
         "month": "8",

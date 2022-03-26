@@ -8,7 +8,7 @@
         },
         "text": {
           "headline": "汽车信息安全事件时间轴",
-          "text": "按照时间发生的先后顺序记录汽车信息安全事件<br><br>项目地址: <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br><br> 联系邮箱: delikely@gmail.com"
+          "text": "按照时间发生的先后顺序记录汽车信息安全事件<br><br>项目地址: <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br><br> 联系邮箱: delikely@gmail.com <br><br>Copyright: 青骥信息安全小组"
         }
       },
     "events": [
@@ -153,6 +153,22 @@
         "start_date": {
           "month": "5",
           "day": "23",
+          "year": "2017"
+        },
+        "group":"vulnerability"
+      },{
+        "media": {
+          "caption": "<a href=\"https://www.cisa.gov/uscert/ics/advisories/ICSA-17-208-01\">Security flaws affect TCUs used in BMW, Ford, Infiniti, and Nissan vehicles</a>",
+          "credit": "<a href=\"https://media.defcon.org/DEF%20CON%2025/DEF%20CON%2025%20presentations/DEF%20CON%2025%20-%20Jesse-Michael-and-Mickey-Shkatov-Driving-Down-the-Rabbit-Hole.pdf\">Slides</a>",
+          "url": "https://www.youtube.com/watch?v=5QBOmr_ZyLo"
+        },
+        "text": {
+          "headline": "福特、宝马、英菲尼迪和日产汽车TCU存在漏洞，可被远程入侵",
+          "text": "这三位研究人员来自McAfee，分别是Mickey Shkatov, Jesse Michael和Oleksandr Bazhaniuk，他们在上周的Defcon大会上展示了研究成果。TCU其实是一种2G调制解调器，现在的汽车普遍用它来传输数据。利用这个模块汽车之间可以互相通讯，还可以用web控制台和手机app来远程控制手机。<br>漏洞影响的是S-Gold 2 (PMB 8876)蜂窝基带芯片，其中一个漏洞是TCU中处理AT命令的组件存在缓冲区溢出漏洞（漏洞编号CVE-2017-9647），这些命令包括AT+STKPROF, AT+XAPP, AT+XLOG和AT+FNS，这些命令中有很多是苹果在2015年修复的iPhone漏洞。不过要执行这个攻击，攻击者需要对汽车有物理权限。而另一个漏洞则是攻击者可以利用TMSI（临时移动用户识别码）来入侵并且控制内存（漏洞编号CVE-2017-9633），这个漏洞可以被远程利用。三名研究员在演讲中表示，针对问题固件的漏洞利用早在2016年就在Ralf-Philip Weinmann所著的《iOS黑客手册》中提及了。<br>研究员Mickey Shkatov特别指出，想要远程利用漏洞未必需要2G网络。只需要购买开源的2G基站：“如果攻击者自己设立恶意基站（伪基站），TCU就会去连接基站，这就可以触发tmsi漏洞。只要TCU开着并且在寻找信号就会被黑。"
+        },
+        "start_date": {
+          "month": "7",
+          "day": "20",
           "year": "2017"
         },
         "group":"vulnerability"
@@ -462,6 +478,22 @@
         "group":"vulnerability"
       },{
         "media": {
+          "caption": "<a href=\"https://www.contextis.com/us/blog/a-code-signing-bypass-for-the-vw-polo\">A code signing bypass for the VW Polo</a>",
+          "credit": "",
+          "url": "static/images/CVE-2020-28656.png"
+        },
+        "text": {
+          "headline": "CVE-2020-28656：大众 Polo 本地升级校验绕过",
+          "text": "大众 Polo 2019 信息娱乐系统升级存在缺陷，攻击者通过物理接触可实现任意代码执行。升级包中的 metainfo 文件中部分内容缺乏校验，这将导致攻击者能够向系统中写入程序，并以 root 权限执行。"
+        },
+        "start_date": {
+          "month": "11",
+          "day": "10",
+          "year": "2020"
+        },
+        "group":"vulnerability"
+      },{
+        "media": {
           "caption": "<a href=\"https://www.imec-int.com/en/press/belgian-security-researchers-ku-leuven-and-imec-demonstrate-serious-flaws-tesla-model-x\">Belgian security researchers from KU Leuven and imec demonstrate serious flaws in Tesla Model X keyless entry system</a>",
           "credit": "",
           "url": "https://youtu.be/clrNuBb3myE"
@@ -612,7 +644,7 @@
         },
         "text": {
           "headline": "沃尔沃汽车披露安全漏洞致研发数据被盗",
-          "text": "12月10日，沃尔沃在公告中表示，“沃尔沃汽车已经意识到某个文件存储库被第三方非法访问。此次事件导致其在斯德哥尔摩的股票下跌3.5%，至72.44克朗(8.00美元，7.06欧元)。<br><br>Snatch勒索软件团伙已经声称发动了这次攻击。该勒索软件于11月30日在其数据泄露站点上添加了一个条目，内容涉及入侵沃尔沃汽车公司的服务器并窃取文件，并附有被盗文件的屏幕截图作为证据。"
+          "text": "12月10日，沃尔沃在公告中表示，“沃尔沃汽车已经意识到某个文件存储库被第三方非法访问。此次事件导致其在斯德哥尔摩的股票下跌3.5%，至72.44克朗(8.00美元，7.06欧元)。<br><br><a href=\"https://hl66646wtlp2naoqnhattngigjp5palgqmbwixepcjyq5i534acgqyad.onion.ly/news.php?id=d22527ae-ef57-45f0-a78b-d3a66bbdcf47\">Snatch</a>勒索软件团伙已经声称发动了这次攻击。该勒索软件于11月30日在其数据泄露站点上添加了一个条目，内容涉及入侵沃尔沃汽车公司的服务器并窃取文件，并附有被盗文件的屏幕截图作为证据。"
         },
         "start_date": {
           "month": "12",
@@ -620,8 +652,38 @@
           "year": "2021"
         },
         "group":"event"
+      },{
+        "media": {
+          "caption": "<a href=\"https://asia.nikkei.com/Spotlight/Supply-Chain/Toyota-halts-operations-at-all-Japan-plants-due-to-cyberattack\">Toyota halts operations at all Japan plants due to cyberattack</a>",
+          "credit": "",
+          "url": "static/images/Kojima-toyota-standby.jpg"
+        },
+        "text": {
+          "headline": "供应商遭网络攻击 丰田宣布日本所有工厂停工一天",
+          "text": "在2月28日丰田供应商小岛冲压工业（Kojima Press Industry）报告遭遇网络安全攻击，据悉该公司主要为汽车制造商提供塑料零件和电子元件。<br><br>此事件也造成丰田所有的日本本土工厂在3月1日停产一天。根据丰田发布的声明，其在日本全国14家工厂的生产线于3月2日重新启动，3月1日的停产影响了约13000辆汽车的产量。<br><br>据小岛冲压工业表示，它在周六（2月26日）晚上发现一个文件服务器存在错误，据其在另一份声明中表示，重新启动服务器后，公司确认已经感染了病毒，并发现了一条威胁信息。<br><br>一家供应商遭受黑客攻击，竟让丰田汽车这一全球汽车制造巨头的工厂停产一天，引发了人们对日本公司供应链脆弱性的担忧。日本政府批评人士表示，网络安全已经成为日本关注的一个关键领域，对一家迄今为止默默无闻的供应商遭到黑客攻击，竟足以让丰田这一世界上最强大的制造商之一在日本国内陷入停摆。"
+        },
+        "start_date": {
+          "month": "3",
+          "day": "1",
+          "year": "2022"
+        },
+        "group":"event"
+      },{
+        "media": {
+          "caption": "<a href=\"https://www.denso.com/global/en/news/newsroom/2022/20220314-g01/\">Notice of Unauthorized Access to Group Company</a>",
+          "credit": "",
+          "url": "static/images/denso-data-leak-2022.jpg"
+        },
+        "text": {
+          "headline": "电装(DENSO) 德国分公司遭网络攻击 1.4TB 数据被盗",
+          "text": "3月14日,电装在公告中表示，他们在当地时间3月10日监测到其德国负责销售和工程的分公司遭到了未经授权的恶意软件访问。其发言人Izumi Saito表示，电装迅速做出了反应称，目前该公司的业务没有受到攻击的影响。<br><br>日本网络安全企业 Mitsui Bussan Secure Directions 称，一个名为 Pandora 的组织威胁将在暗网上披露电装的商业机密，包括业务电子邮件、发票和零件图纸等。该组织声称，他们获得了超过 15.7 万份采购订单、电子邮件和草图，数据大小约为 1.4TB。Pandora 利用勒索软件发动了网络攻击，该软件会对公司数据进行加密，企业如果不想泄露数据，需要向黑客支付赎金。<br><br>本次事件是丰田供应商近期遭到的第二次网络攻击。两周前(3月1日)，丰田暂时关闭了其位于日本的所有工厂，原因是其供应商小岛冲压工业的系统遭到了攻击。"
+        },
+        "start_date": {
+          "month": "3",
+          "day": "14",
+          "year": "2022"
+        },
+        "group":"event"
       }
-  
-      
     ]
   }

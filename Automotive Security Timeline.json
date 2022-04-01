@@ -699,7 +699,7 @@
           "day": "8",
           "year": "2022"
         },
-        "group":"event"
+        "group":"vulnerability"
       },{
         "media": {
           "caption": "<a href=\"https://github.com/pompel123/Tesla-Charging-Port-Opener\">Tesla-Charging-Port-Opener</a>",
@@ -715,7 +715,7 @@
           "day": "13",
           "year": "2022"
         },
-        "group":"event"
+        "group":"vulnerability"
       },{
         "media": {
           "caption": "<a href=\"https://github.com/nonamecoder/CVE-2022-27254\">PoC for vulnerability in Honda's Remote Keyless System(CVE-2022-27254)</a>",
@@ -731,7 +731,7 @@
           "day": "25",
           "year": "2022"
         },
-        "group":"event"
+        "group":"vulnerability"
       }
     ]
 }

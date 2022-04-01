@@ -606,12 +606,12 @@
         "group":"vulnerability"
       },{
         "media": {
-          "caption": "<a href=\"https://github.com/HackingIntoYourHeart/Unoriginal-Rice-Patty\">本田雅阁、思域、讴歌等多款车存在密钥重放攻击漏洞</a>",
+          "caption": "<a href=\"https://github.com/HackingIntoYourHeart/Unoriginal-Rice-Patty\">本田雅阁、思域、讴歌等多款车无线钥匙存在重放攻击漏洞</a>",
           "credit": "",
           "url": "https://user-images.githubusercontent.com/43358273/127954308-5519436a-d980-420d-a6cd-d21e3cf463e3.mp4"
         },
         "text": {
-          "headline": "本田雅阁、思域、讴歌等多款车存在密钥重放攻击漏洞",
+          "headline": "本田雅阁、思域、讴歌等多款车存在无线钥匙重放攻击漏洞",
           "text": "田雅阁、讴歌、思域部分车型的钥匙未采用滚动码，而采用不安全的固定码，钥匙信号可以被重放。攻击者能够解锁车门、控制窗户、打开后备箱等。然而可能不会有缓解方案，丰田方面已忽略 CVE-2019-20626。<br>已确认受影响的车型如下：<br>• 2009 Acura TSX<br>• 2016 Honda Accord V6 Touring Sedan<br>• 2017 Honda HR-V (CVE-2019-20626)<br>• 2018 Honda Civic Hatchback<br>• 2020 Honda Civic LX"
         },
         "start_date": {
@@ -684,6 +684,54 @@
           "year": "2022"
         },
         "group":"event"
+      },{
+        "media": {
+          "caption": "<a href=\"http://starvlab.qianxin.com/?p=636\">侠盗猎车 — 玩转滚动码（中）</a>",
+          "credit": "",
+          "url": "https://youtu.be/NjbjepeILrk"
+        },
+        "text": {
+          "headline": "丰田汽车钥匙滚动码存在缺陷,无线信号能被重放(CVE-2021-46145)",
+          "text": "奇安信星舆实验室 Kevin2600 发现本田汽车钥匙存在设计缺陷。根据滚动码的设计原理, 通常无法使用简单的回放攻击打开车门。但是如果把过期的开门指令按特定顺序重新排列并发送, 令人意外的是本田汽车的同步计数器竟回滚了, 也意味着之前过期的开门指令又复活了。<br><br>早在 2016 年就有研究员在比亚迪汽车钥匙设计中找到同类问题。"
+        },
+        "start_date": {
+          "month": "2",
+          "day": "8",
+          "year": "2022"
+        },
+        "group":"event"
+      },{
+        "media": {
+          "caption": "<a href=\"https://github.com/pompel123/Tesla-Charging-Port-Opener\">Tesla-Charging-Port-Opener</a>",
+          "credit": "",
+          "url": "static/media/tesla-portapack.gif"
+        },
+        "text": {
+          "headline": "Tesla充电口盖存在重放漏洞(CVE-2022-27948)",
+          "text": "Tesla 超级充电桩的充电头上配备了一个用于打开充电口盖的按钮, 该按钮通过发送无线射频信号解锁充电口盖。由于用来解锁的无线信号采用固定码，攻击者可以重放之前录制的无线信号在任何地点打开充电口盖。 该漏洞早在多年前已被发现且利用，甚至已有专用于解锁充电口盖的无线钥匙在售。<br><br>值得注意的是无线射频信号的频率，国内外采用的频段并不相同。在国外采用的频率为 315MHz，国内采用的为 433HMz。"
+        },
+        "start_date": {
+          "month": "3",
+          "day": "13",
+          "year": "2022"
+        },
+        "group":"event"
+      },{
+        "media": {
+          "caption": "<a href=\"https://github.com/nonamecoder/CVE-2022-27254\">PoC for vulnerability in Honda's Remote Keyless System(CVE-2022-27254)</a>",
+          "credit": "",
+          "url": "https://user-images.githubusercontent.com/5160055/159138551-e9ab24fa-a05c-4fc8-ad1c-f1dcda698bcc.mp4"
+        },
+        "text": {
+          "headline": "本田汽车无钥匙进入系统中继攻击(CVE-2022-27254)",
+          "text": "CBlake Berry 和 Ayyappan Rajesh 发现某些本田和讴歌汽车的无线钥匙不仅使用固定码，而且还没有加密。位于汽车附近的黑客可利用汽车无钥匙进入系统漏洞打开车门，并远程启动汽车引擎。该漏洞被可用于中继攻击，攻击者监听无线钥匙发送给汽车的RF信号。捕获这些信号之后将信号重新发送，能够任意解锁汽车。<br><br>受影响的车型： 2016-2020 Honda Civic(LX, EX, EX-L, Touring, Si, Type R)"
+        },
+        "start_date": {
+          "month": "3",
+          "day": "25",
+          "year": "2022"
+        },
+        "group":"event"
       }
     ]
-  }
+}

@@ -7,7 +7,7 @@
           "url": "static/images/Car.jpg"
         },
         "text": {
-          "headline": "汽车信息安全事件时间轴",
+          "headline": "车联网安全事件时间轴",
           "text": "按照时间发生的先后顺序记录汽车信息安全事件<br><br>项目地址: <a href=\"https://github.com/delikely/Automotive-Security-Timeline\"> Automotive Security Timeline </a><br><br> 联系邮箱: delikely@gmail.com <br><br>Copyright: 青骥信息安全小组"
         }
       },
@@ -723,7 +723,7 @@
           "url": "https://user-images.githubusercontent.com/5160055/159138551-e9ab24fa-a05c-4fc8-ad1c-f1dcda698bcc.mp4"
         },
         "text": {
-          "headline": "本田汽车无钥匙进入系统中继攻击(CVE-2022-27254)",
+          "headline": "本田汽车无钥匙进入系统重放攻击(CVE-2022-27254)",
           "text": "CBlake Berry 和 Ayyappan Rajesh 发现某些本田和讴歌汽车的无线钥匙不仅使用固定码，而且还没有加密。位于汽车附近的黑客可利用汽车无钥匙进入系统漏洞打开车门，并远程启动汽车引擎。该漏洞被可用于中继攻击，攻击者监听无线钥匙发送给汽车的RF信号。捕获这些信号之后将信号重新发送，能够任意解锁汽车。<br><br>受影响的车型： 2016-2020 Honda Civic(LX, EX, EX-L, Touring, Si, Type R)"
         },
         "start_date": {

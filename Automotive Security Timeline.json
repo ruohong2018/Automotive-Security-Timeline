@@ -750,8 +750,8 @@
         "group":"vulnerability"
       },{
         "media": {
-          "caption": "<a href=\"https://research.nccgroup.com/2022/05/15/technical-advisory-tesla-ble-phone-as-a-key-passive-entry-vulnerable-to-relay-attacks/\">Tesla BLE Phone-as-a-Key Passive Entry Vulnerable to Relay Attacks</a>",
-          "credit": "<a  hdrf=\"https://trifinite.org/Downloads/20220604_tempa_presentation_recon22_public.pdf \">Demystifying Tesla’s Bluetooth Passive Entry System</a>",
+          "caption": "<a href=\"https://trifinite.org/stuff/project_tempa/\">Project TEMPA</a>",
+          "credit": "<a href=\"https://trifinite.org/Downloads/20220604_tempa_presentation_recon22_public.pdf\">Demystifying Tesla’s Bluetooth Passive Entry System</a>",
           "url": "https://youtu.be/yfG4JS71eUY"
         },
         "text": {

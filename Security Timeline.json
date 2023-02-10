@@ -14,9 +14,9 @@
     "events": [
         {
             "media": {
-              "caption": "<a href=\"https://trifinite.org/stuff/project_tempa/\">Project TEMPA</a>",
+              "caption": "<a href=\"https://trifinite.org/stuff/project_tempa/\">艺术版权</a>",
               "credit": "<a href=\"https://trifinite.org/Downloads/20220604_tempa_presentation_recon22_public.pdf\">Demystifying Tesla’s Bluetooth Passive Entry System</a>",
-              "url": "https://youtu.be/yfG4JS71eUY"
+              "url": "static/media/stable diffusion.mov"
             },
             "text": {
               "headline": "AI剽窃原创作品，艺术家提集体诉讼",

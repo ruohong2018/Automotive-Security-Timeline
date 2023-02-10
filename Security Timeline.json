@@ -14,7 +14,7 @@
     "events": [
         {
             "media": {
-              "caption": "<a href=\https://openreview.net/forum?id=iAmZUo0DxC0\">我来认领</a>",
+              "caption": "<a href=\"https://openreview.net/forum?id=iAmZUo0DxC0\">我来认领</a>",
               "credit": "<a href=\"https://www.zhichanli.com/p/868674344\">关联事件</a>",
               "url": "static/media/stable-diffusion.gif"
             },

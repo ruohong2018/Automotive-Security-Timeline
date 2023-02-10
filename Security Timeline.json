@@ -3,8 +3,8 @@
     "title": {
         "media": {
           "caption": "",
-          "credit": "<a href=\"https://github.com/ruohong2018/Security-Timeline\"> Security Timeline <a>",
-          "url": "static/images/event.jpg"
+          "credit": "<a href=\"https://github.com/ruohong2018/Security-Timeline\"> AI FBI--AI对抗者联盟<a>",
+          "url": "static/images/AI FBI.jpg"
         },
         "text": {
           "headline": "人工智能与现实世界的冲突",
@@ -19,15 +19,15 @@
               "url": "https://youtu.be/yfG4JS71eUY"
             },
             "text": {
-              "headline": "任意创建 Tesla 蓝牙钥匙",
-              "text": "Trifinite 公司的 Martin Herfurt 发现了 TESLA  钥匙注册新钥匙的方法，在NFC钥匙开门的130秒内，能够与车身 BLE 蓝牙钥匙模块通信，并注册一把新的钥匙。利用钥匙系统的这一缺陷可以创建全新的蓝牙钥匙。<br>  <br><br> 此外，他们还发现通过发送特定 BLE 消息能够绕过 PIN2DRIVE。"
+              "headline": "AI剽窃原创作品，艺术家提集体诉讼",
+              "text": "AI作画火遍全网。给AI软件一张自拍照或是几个关键词参数，很快就可以获得风格迥异的画作。<br><br>其中人工智能了创作的精妙作品，也被摆上了拍卖席。2018年，由人工智能Obvious创作的爱德蒙·贝拉米（ Edmond Belamy ）肖像画在佳士得拍卖行被拍出了43.25万美元的高价。<br><br>越来越多的艺术家发现，一些AI图像生成器未经他们的同意盗用其作品用于训练算法。艺术家并没有因此获得任何补偿。<br><br>据报道，Stable Diffusion创作的作品，被控告涉及数十亿受版权保护的图像。然而，这起案件的不可回避的问题是，AI创作的权属认定并没有定论。据报道，除了英国、爱尔兰、新加坡等少数国家承认“为计算机生成作品进行必要程序之人视为作者”，大多数国家对于作者的界定仍是自然人。"
             },
             "start_date": {
-              "month": "6",
-              "day": "9",
-              "year": "2022"
+              "month": "1",
+              "day": "16",
+              "year": "2023"
             },
-            "group":"vulnerability"
+            "group":"event"
       },
       {
         "media": {

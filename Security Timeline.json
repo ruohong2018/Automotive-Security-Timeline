@@ -28,39 +28,6 @@
               "year": "2023"
             },
             "group":"event"
-      },
-      {
-        "media": {
-          "caption": "<a href=\"https://www.ccreports.com.cn/show-7-9771-1.html\">10万雪铁龙车主信息或遭泄露</a>",
-          "credit": "",
-          "url": "static/images/CITROEN.png"
-        },
-        "text": {
-          "headline": "10 万雪铁龙车主信息或遭泄露",
-          "text": "据《消费者报道》报道，一位网名叫做 “猫哥” 的黑客在网络上兜售车主信息。“猫哥” 提供了数据库截图。截图上显示了 7 个城市的 15 个订单信息，具体包括了车主姓名、手机号码、意向购车型号。下单时间则集中在 2015 年 5 月 4 日晚 8 点以后，最新的订单信息则刚刚发生在 5 分钟之前。黑客 “猫哥” 提供的数据截屏显示，其后还有 540676 条信息，非重复的有 10 万条售前信息”。至于数据的来源，黑客“猫哥”给出的答案是 “太懒” —— 东风雪铁龙基本不管自己的后台，这是能轻易拿下数据的主要原因。"
-        },
-        "start_date": {
-          "month": "7",
-          "day": "13",
-          "year": "2015"
-        },
-        "group":"event"
-      },{
-        "media": {
-          "caption": "<a href=\"https://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway\">Hackers Remotely Kill a Jeep on the Highway—With Me in It</a>",
-          "credit": "",
-          "url": "static/images/Jeep_2015.jpg"
-        },
-        "text": {
-          "headline": "吉普和克莱斯勒可被远程劫持，克莱斯勒召回 140 万辆轿车和卡车",
-          "text": "由于担心黑客控制汽车，克莱斯勒宣布召回 140 万辆轿车和卡车。在两名黑客的演示中，他们证明了可以从任何接入互联网的地方，远程获取汽车的关键功能操作权限，比如踩下刹车、让引擎熄火、把车开下公路，并令所有电子设备宕机。"
-        },
-        "start_date": {
-          "month": "7",
-          "day": "21",
-          "year": "2015"
-        },
-        "group":"vulnerability"
       }
     ]
 }
